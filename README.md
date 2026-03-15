@@ -1,7 +1,19 @@
 # Ultra-chaotic property of Navier-Stokes turbulence
 
-A chaotic system is called ultra-chaos when its statistics have sensitivity dependence on initial condition and/or other small disturbances. In this investigation, using two-dimensional turbulent Kolmogorov flow as an example, we illustrate that tiny variation of initial condition of Navier-Stokes equations can lead to huge differences not only in spatiotemporal trajectory but also in flow symmetry and its statistics. Here, to avoid the influence of artificial numerical noise, we apply “clean numerical simulation” (CNS) which can guarantee that the numerical noise is reduced to such a desired low level that it is negligible in a time interval long enough for calculating statistics. This discovery highly suggests that the Navier-Stokes turbulence (i.e. turbulence governed by the Navier-Stokes equations) might be an ultra-chaos, say, small disturbances must be considered even from viewpoint of statistics. This however leads to a paradox in logic, since small disturbances, which are unavoidable in practice, are unfortunately neglected by the Navier-Stokes turbulence. Some fundamental characteristics of turbulence model are discussed and suggested in general meanings.
+A chaotic system is called ultra-chaos when its statistics have sensitivity dependence on initial condition and/or other small disturbances. 
+
+In this investigation, using two-dimensional turbulent Kolmogorov flow as an example, we illustrate that tiny variation of initial condition of Navier-Stokes equations can lead to huge differences not only in spatiotemporal trajectory but also in flow symmetry and its statistics. Here, to avoid the influence of artificial numerical noise, we apply “clean numerical simulation” (CNS) which can guarantee that the numerical noise is reduced to such a desired low level that it is negligible in a time interval long enough for calculating statistics. 
+
+This discovery highly suggests that the Navier-Stokes turbulence (i.e. turbulence governed by the Navier-Stokes equations) might be an ultra-chaos, say, small disturbances must be considered even from viewpoint of statistics. This however leads to a paradox in logic, since small disturbances, which are unavoidable in practice, are unfortunately neglected by the Navier-Stokes turbulence. Some fundamental characteristics of turbulence model are discussed and suggested in general meanings.
 
 For more details, please see
 
 S. Qin, K. Xu, S. Liao, Ultra-chaotic property of Navier-Stokes turbulence. arXiv preprint [arXiv:2510.06620](https://arxiv.org/abs/2510.06620), 2025.
+
+Related codes of CNS corresponding to Flow CNS-1, Flow CNS-2, and Flow CNS-3 can be downloaded here
+
+[codes](https://github.com/sjtu-liao/Ultrachaos-2D-Kolmogorov/tree/main/codes)
+
+and three movies corresponding to Flow CNS-1, Flow CNS-2, and Flow CNS-3 can be downloaded here
+
+[movies](https://github.com/sjtu-liao/Ultrachaos-2D-Kolmogorov/tree/main/movies)
